@@ -1,0 +1,62 @@
+<!--
+Name : Jordan Cutler
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magnetic Poetry</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<link rel="stylesheet" type="text/css" href="jquery-ui/jquery-ui.min.css"/>
+	<link rel="stylesheet" type="text/css" href="jquery-ui/jquery-ui.theme.min.css"/>
+	<link rel="stylesheet" type="text/css" href="jquery-ui/jquery-ui.structure.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="input-field col s4">
+				<input id="word" type="text">
+				<label for="word">Enter Your Word Here</label>
+			</div>
+			<div class="col s3">
+				<a class="waves-effect waves-light btn" id="addButton">Add Word</a>
+			</div>
+			<div class="col s3">
+				<i class="fa fa-trash-o fa-5x" id="trashcan" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s3">
+				<span style="color:white">Select the background color:</span>
+			</div>
+			<div class="col s5">
+				<button class="btn waves-effect waves-light jscolor" id="backColor"></button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s3">
+				<span style="color:white">Select the text color:</span>
+			</div>
+			<div class="col s5">
+				<button class="btn waves-effect waves-light jscolor {value:'000000'}" id="textColor"></button>
+			</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12" id="buttonDiv">
+				
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery-1.8.1.min.js"></script>
+<script src="js/jquery-ui-1.8.23.custom.min.js"></script>
+<script src="js/jscolor.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+</body>
+</html>

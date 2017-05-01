@@ -1,0 +1,66 @@
+/*
+Name : Jordan Cutler
+*/
+
+html,
+body {
+    height: 100%;
+}
+body {
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url('background.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#addButton {
+    margin-top: 23px;
+}
+
+.moveable {
+    position: absolute;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#initialButtons {
+    margin-top: 100px;
+}
+
+input[type='text'] {
+    color: white;
+}
+
+.fa {
+    color: black;
+}
+.btn2 {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  text-align: center;
+  letter-spacing: .5px;
+}
